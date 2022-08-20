@@ -13,13 +13,13 @@ const Course = () => {
             <div className="header-img glowing w-60 ">
                 <img src="https://i.ibb.co/LgZH81c/jquery.jpg" alt="" />
             </div>
-            <div className="header-img glowing w-60 ">
+            <div className="header-img glowing w- ">
                 <img src="https://i.ibb.co/XCWkbZw/nodeJs.png" alt="" />
             </div>
-            <div className="header-img glowing w-60 ">
+            <div className="header-img glowing w-40 ">
                 <img src="https://i.ibb.co/51PZ0fs/react.jpg" alt="" />
             </div>
-            <div className="header-img glowing w-60 ">
+            <div className="header-img glowing w-40 ">
                 <img src="https://i.ibb.co/RzwyMYf/react-Native.jpg" alt="" />
             </div>
         </div>

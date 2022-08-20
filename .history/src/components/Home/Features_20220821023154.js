@@ -13,29 +13,29 @@ const features = [
     {
         id:"1",
         img:"https://i.ibb.co/DYgWPqM/javascript.jpg",
-        name: "Javascript",
+        name: "Amalfi Coast",
         price:'$5310',
         description:
-            "JavaScript (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, ...",
+            "The Amalfi Coast (Italian: Costiera amalfitana) is a stretch of coastline in southern Italy overlooking the Tyrrhenian Sea and the Gulf of Salerno.Deemed an outstanding example of landscape by Unesco ...",
             button: 'click me'
                    
     },
     {
         id:"2",
         img:"https://i.ibb.co/LgZH81c/jquery.jpg",
-        name: "Jquery",
+        name: "Roman Forum",
         price:'$5120',
         description:
-            "jQuery is a fast, small, and feature-rich JavaScript library. It makes things like HTML document traversal and manipulation, event handling, animation ...",
+            "The Roman Forum, also known by its Latin name Forum Romanum (Italian: Foro Romano), is a rectangular forum (plaza) surrounded by the ruins of several most important forum in ancient Rome ...",
             button: 'click me'
     },
     {
         id:"3",
         img:"https://i.ibb.co/XCWkbZw/nodeJs.png",
-        name: "Node Js",
+        name: "Node ",
         price:'$5520',
         description:
-            "Node.js is an open source server environment; Node.js is free; Node.js runs on various platforms (Windows, Linux, Unix, Mac OS X, etc.) ; Node.js can generate ...",
+            "The French Riviera is the Mediterranean coastline of the southeast corner of France. There is no official boundary, but it is usually considered to extend The French Riviera: 8 Must-See Spots on the Côte d'Azur ...",
             button: 'click me'
     },
     {
@@ -44,7 +44,7 @@ const features = [
         name: "React Js",
         price:'$4520',
         description:
-            "React · Declarative. React makes it painless to create interactive UIs. · Component-Based. Build encapsulated components that manage their own state, then compose ...",
+            "Enjoy one full day access to Aquaventure Waterpark with 105 record-breaking slides, attractions and experiences, including a private beach and the Surf's Up the exclusive passes of Rayna Tours ...",
     },
     {
         id:"5",
@@ -52,7 +52,7 @@ const features = [
         name: "React Native",
         price:'$6820',
         description:
-            "This tutorial is designed for JavaScript and React developers who aspire to learn mobile building skills. By following this course, you will expand your React ...",
+            "The French Riviera is the Mediterranean coastline of the southeast corner of France. There is no official boundary, but it is usually considered to extend The French Riviera: 8 Must-See Spots on the Côte d'Azur ...",
             button: 'click me'
     },
     {
@@ -61,7 +61,7 @@ const features = [
         name: "Vue Js",
         price:'$7320',
         description:
-            "Vue.js lets you extend HTML with HTML attributes called directives. Vue.js directives offers functionality to HTML applications. Vue.js provides built-in ...",
+            "Enjoy one full day access to Aquaventure Waterpark with 105 record-breaking slides, attractions and experiences, including a private beach and the Surf's Up the exclusive passes of Rayna Tours ...",
     },
 ];
 
@@ -80,7 +80,7 @@ const Features = () => {
                             <p className="font-bold">Name: {feature.name}</p>
                             <p className="font-bold">Price: {feature.price}</p>
                             <div className="w-100 font-bold p-2">{feature.description}</div>
-                            <div><Link className="bg-rose-500  py-1 px-2 font-bold hover:bg-cyan-600 rounded text-center" to="/Coursess">Click Me</Link></div> 
+                            <div><Link className="bg-rose-500  py-1 px-2 font-bold hover:bg-cyan-600 rounded text-center" to="/checkout">Click Me</Link></div> 
                         </div>
                     ))}
             </div>

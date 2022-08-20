@@ -80,7 +80,7 @@ const Features = () => {
                             <p className="font-bold">Name: {feature.name}</p>
                             <p className="font-bold">Price: {feature.price}</p>
                             <div className="w-100 font-bold p-2">{feature.description}</div>
-                            <div><Link className="bg-rose-500  py-1 px-2 font-bold hover:bg-cyan-600 rounded text-center" to="/Coursess">Click Me</Link></div> 
+                            <div><Link className="bg-rose-500  py-1 px-2 font-bold hover:bg-cyan-600 rounded text-center" to="/C">Click Me</Link></div> 
                         </div>
                     ))}
             </div>

@@ -5,7 +5,7 @@ import Login from "./components/Auth/Login/Login";
 import RequireAuth from "./components/Auth/RequireAuth/RequireAuth";
 import Signup from "./components/Auth/Signup/Signup";
 import Blogs from "./components/Blogs/Blogs";
-import Coursess from "./components/Coursess/Coursess";
+import Checkout from "./components/Checkout/Coursess"
 import Footer from "./components/Home/Footer";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
@@ -21,10 +21,10 @@ function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/home" element={<Home />} />
                 <Route
-                    path="/Coursess"
+                    path="/courses"
                     element={
                         <RequireAuth>
-                            <Coursess />
+                            < />
                         </RequireAuth>
                     }
                 />

@@ -52,7 +52,7 @@ const features = [
         name: "React Native",
         price:'$6820',
         description:
-            "This tutorial is designed for JavaScript and React developers who aspire to learn mobile building skills. By following this course, you will expand your React ...",
+            "This tutorial is designed for JavaScript and React developers who aspire to learn mobile building skills. By following this course, you will expand your React...",
             button: 'click me'
     },
     {
@@ -61,7 +61,7 @@ const features = [
         name: "Vue Js",
         price:'$7320',
         description:
-            "Vue.js lets you extend HTML with HTML attributes called directives. Vue.js directives offers functionality to HTML applications. Vue.js provides built-in ...",
+            "Enjoy one full day access to Aquaventure Waterpark with 105 record-breaking slides, attractions and experiences, including a private beach and the Surf's Up the exclusive passes of Rayna Tours ...",
     },
 ];
 
@@ -80,7 +80,7 @@ const Features = () => {
                             <p className="font-bold">Name: {feature.name}</p>
                             <p className="font-bold">Price: {feature.price}</p>
                             <div className="w-100 font-bold p-2">{feature.description}</div>
-                            <div><Link className="bg-rose-500  py-1 px-2 font-bold hover:bg-cyan-600 rounded text-center" to="/Coursess">Click Me</Link></div> 
+                            <div><Link className="bg-rose-500  py-1 px-2 font-bold hover:bg-cyan-600 rounded text-center" to="/checkout">Click Me</Link></div> 
                         </div>
                     ))}
             </div>

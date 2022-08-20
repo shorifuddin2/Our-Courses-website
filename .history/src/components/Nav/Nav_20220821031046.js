@@ -37,7 +37,7 @@ const Nav = () => {
                        
                         <li>
                             <NavLink
-                                to="Coursess"
+                                to=""
                                     className={({ isActive }) =>
                                     isActive ? `block  active:bg-blue-600 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent` : undefined
                                     }

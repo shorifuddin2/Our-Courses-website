@@ -5,7 +5,7 @@ import Login from "./components/Auth/Login/Login";
 import RequireAuth from "./components/Auth/RequireAuth/RequireAuth";
 import Signup from "./components/Auth/Signup/Signup";
 import Blogs from "./components/Blogs/Blogs";
-import Coursess from "./components/Coursess/Coursess";
+import Coursess from "./components/Checkout/Coursess";
 import Footer from "./components/Home/Footer";
 import Home from "./components/Home/Home";
 import Nav from "./components/Nav/Nav";
@@ -24,7 +24,7 @@ function App() {
                     path="/Coursess"
                     element={
                         <RequireAuth>
-                            <Coursess />
+                            <Coursesss />
                         </RequireAuth>
                     }
                 />

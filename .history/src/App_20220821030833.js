@@ -24,7 +24,7 @@ function App() {
                     path="/Coursess"
                     element={
                         <RequireAuth>
-                            <Coursess />
+                            <Coursesss />
                         </RequireAuth>
                     }
                 />
